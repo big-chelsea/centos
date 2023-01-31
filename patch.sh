@@ -2,17 +2,27 @@
 
 . function.sh
 
-TMP1=`SCRIPTNAME`.log
+TMP1='SCRIPTNAME'.log
 
-> $TMP1 
+> $TMP1
 
 . U-01.sh
+
+. U-02.sh
+
+. U-03.sh
+
+. U-04.sh
+
+. U-05.sh
+
+. U-06.sh
 
 . U-07.sh
 
 . U-08.sh
 
-. U-08.sh
+. U-09.sh
 
 . U-10.sh
 
@@ -24,11 +34,21 @@ TMP1=`SCRIPTNAME`.log
 
 . U-14.sh
 
+. U-15.sh
+
+. U-16.sh
+
+. U-17.sh
+
+. U-18.sh
+
 . U-19.sh
 
 . U-20.sh
 
 . U-21.sh
+
+. U-22.sh
 
 . U-23.sh
 
@@ -44,9 +64,15 @@ TMP1=`SCRIPTNAME`.log
 
 . U-29.sh
 
+. U-30.sh #
+
 . U-31.sh
 
 . U-32.sh
+
+. U-33.sh #
+
+. U-34.sh
 
 . U-35.sh
 
@@ -62,4 +88,20 @@ TMP1=`SCRIPTNAME`.log
 
 . U-41.sh
 
+. U-42.sh #
+
+. U-43.sh
+
+. U-44.sh
+
 . U-45.sh
+
+. U-46.sh
+
+. U-47.sh
+
+. U-48.sh
+
+. U-49.sh
+
+. U-50.sh
