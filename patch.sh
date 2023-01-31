@@ -2,9 +2,9 @@
 
 . function.sh
 
-TMP1='SCRIPTNAME'.log
+TMP1=`SCRIPTNAME`.log
 
-> $TMP1
+> $TMP1 
 
 . U-01.sh
 
