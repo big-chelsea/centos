@@ -16,6 +16,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1 
+
 # vi editor를 사용하여 Apache 구성 파일 열기
 vi /etc/httpd/conf/httpd.conf
 

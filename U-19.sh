@@ -16,6 +16,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1 
+
 # vi 편집기를 이용하여 /etc/xinetd.d/finger 파일 열기
 sudo vi /etc/xinetd.d/finger
 

@@ -16,6 +16,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1 
+
 # 루트 사용자로 실행하여 특정 디렉터리 및 해당 파일을 제거
 rm -rf /path/to/directory
 

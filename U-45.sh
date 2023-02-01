@@ -17,6 +17,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1 
+
 # vi 편집기로 /etc/pam.d/su 파일 열기
 vi /etc/pam.d/su
 

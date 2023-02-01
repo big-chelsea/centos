@@ -16,6 +16,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1 
+
 # /etc/passwd 파일에서 FTP 또는 익명 계정을 삭제
 if [ "$(id -u)" != "0" ]; then
    echo "This script must be run as root" 1>&2

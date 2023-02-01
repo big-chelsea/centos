@@ -16,6 +16,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1 
+
 # 파일 소유자를 "root" 사용자와 "root" 그룹으로 변경
 sudo chown root:root /etc/hosts
 

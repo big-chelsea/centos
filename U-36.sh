@@ -16,6 +16,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1 
+
 # 새 사용자 및 그룹 생성
 useradd -m -s /sbin/nologin newuser
 groupadd newgroup

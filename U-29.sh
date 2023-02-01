@@ -16,6 +16,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1 
+
 # vi를 사용하여 디렉토리 "/etc/xinetd.d/"에서 tftp, talk, ntalk 파일 열기
 for service in tftp talk ntalk; do
     if [ -f "/etc/xinetd.d/$service" ]; then

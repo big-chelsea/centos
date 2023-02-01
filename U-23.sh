@@ -16,6 +16,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1 
+
 #
 vi /etc/xinetd.d/{echo,discard,daytime,chargen}
 

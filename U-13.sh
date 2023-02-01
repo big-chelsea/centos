@@ -17,6 +17,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1 
+
 # SUID(사용자 ID 설정) 또는 SGID(그룹 ID 설정) 비트가 설정된 시스템의 모든 파일을 찾고 권한 및 소유권 정보를 표시
 find / -type f \( -perm /u+s -o -perm /g+s \) -exec ls -l {} \;
 

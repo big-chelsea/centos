@@ -20,6 +20,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1 
+
 # 지정된 디렉토리 아래의 모든 파일 및 디렉토리의 소유자를 new_username 및 new_groupname으로 변경
 sudo chown -R new_username:new_groupname /path/to/directory
 

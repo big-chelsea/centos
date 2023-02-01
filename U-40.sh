@@ -16,6 +16,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1 
+
 # vi 편집기를 사용하여 /[Apache_home]/conf/httpd.conf 파일 열기
 APACHE_HOME=[path-to-Apache-directory]
 

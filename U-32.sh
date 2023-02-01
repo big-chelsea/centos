@@ -18,6 +18,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1 
+
 # sendmail.cf 파일의 경로를 지정
 file="/etc/mail/sendmail.cf"
 

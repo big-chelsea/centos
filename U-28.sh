@@ -16,6 +16,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1 
+
 # nfs 데몬 서비스 중지
 sudo systemctl stop nfs-server
 

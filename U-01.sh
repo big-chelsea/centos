@@ -16,6 +16,10 @@ EOF
 
 BAR
 
+TMP1=`SCRIPTNAME`.log
+
+>$TMP1  
+
 # /etc/securety 파일에서 pts/0 tops/x 설정 제거
 sudo sed -i 's/^[^#]*pts\/[0-9]/#&/g' /etc/securety
 
