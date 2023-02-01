@@ -45,6 +45,7 @@ sudo sed -i '/pts\/[0-9]/d' /etc/securety
 # vi 편집기를 사용하여 /etc/ssh/sshd_config 파일 열기
 sudo vi /etc/ssh/sshd_config
 
+
 cat $result
 
 echo ; echo
